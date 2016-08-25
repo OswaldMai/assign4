@@ -146,10 +146,10 @@ void draw() {
           waveState = T_WAVE;
           enemy_x1[i] = 0;
           enemy_y1[0]=floor(random(175));
-          enemy_y1[1]=enemy_y1[0]+1/2*spacing;
-          enemy_y1[2]=enemy_y1[1]+1/2*spacing;
-          enemy_y1[3]=enemy_y1[2]+1/2*spacing;
-          enemy_y1[4]=enemy_y1[3]+1/2*spacing;
+          enemy_y1[1]=enemy_y1[0]+1/4*spacing;
+          enemy_y1[2]=enemy_y1[1]+1/4*spacing;
+          enemy_y1[3]=enemy_y1[2]+1/4*spacing;
+          enemy_y1[4]=enemy_y1[3]+1/4*spacing;
         }
       }
       break;
@@ -166,8 +166,8 @@ void draw() {
           waveState = F_WAVE;
           enemy_x2[i] = 0;
           enemy_y2[0]=floor(random(110,310));
-          enemy_y2[1]=enemy_y2[0]+1/2*spacing;
-          enemy_y2[2]=enemy_y2[0]+1/2*spacing;
+          enemy_y2[1]=enemy_y2[0]+1/4*spacing;
+          enemy_y2[2]=enemy_y2[0]+1/4*spacing;
         }
       }
       break;
